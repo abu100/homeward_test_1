@@ -1,1 +1,1 @@
-gunicorn PROJECT_NAME.wsgi
+web: gunicorn homeward_test1.wsgi --log-file -
