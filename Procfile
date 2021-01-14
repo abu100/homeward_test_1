@@ -1,0 +1,1 @@
+gunicorn PROJECT_NAME.wsgi
