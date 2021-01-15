@@ -23,11 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '(8pd^6e&1g0nta&bviv_u4$4$s3-(&u$+$)f+f$l6wxis_r4i6'
+# SECRET_KEY = os.environ.get('SECRET_KEY')
+# EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','homeward-test-123.herokuapp.com']
 
 
 # Application definition
